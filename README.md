@@ -1,90 +1,49 @@
-# 🚢 Titanic Data Preprocessing Project
+# 🤖 Machine Learning & AI Internship – Skill Nexis
 
-This project is completed as part of **Week 1** of the **Machine Learning & AI Internship** at **Skill Nexis**.
+![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange?logo=scikitlearn)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green?logo=pandas)
+![Status](https://img.shields.io/badge/Status-Week%202%20Completed-success)
 
-The objective of this project is to clean and preprocess the Titanic dataset before applying Machine Learning algorithms.
+## 📌 About
+
+This repository contains all assignments, projects, and practical work completed during my **Machine Learning & AI Internship** at **Skill Nexis**.
+
+The internship focuses on learning Machine Learning concepts through hands-on implementation using Python and Scikit-Learn.
+
+**Duration:** August 2026 – September 2026
 
 ---
 
-## 📌 Project Objectives
-
-- Import and explore the dataset
-- Handle missing values
-- Encode categorical features
-- Visualize data
-- Save the cleaned dataset
-
----
-
-## 🛠️ Technologies Used
+# 🛠️ Tech Stack
 
 - Python
-- Pandas
 - NumPy
+- Pandas
 - Matplotlib
 - Seaborn
-- Scikit-learn
+- Scikit-Learn
+- Jupyter Notebook
 
 ---
 
-## 📂 Dataset
-
-Dataset Used:
-- Titanic Dataset (Kaggle)
-
-Target:
-- Predict passenger survival after preprocessing.
-
----
-
-## 📋 Tasks Completed
-
-- ✔ Imported the dataset using Pandas
-- ✔ Explored the dataset using `info()` and `describe()`
-- ✔ Checked missing values
-- ✔ Filled missing values
-- ✔ Encoded categorical columns (`Sex`, `Embarked`)
-- ✔ Visualized Age Distribution
-- ✔ Saved the cleaned dataset as a new CSV
-
----
-
-## 📊 Data Preprocessing Steps
-
-### Missing Values
-
-- Age → Filled using Median
-- Embarked → Filled using Mode
-- Cabin → Removed (Large number of missing values)
-
-### Encoding
-
-- Sex → Label Encoding
-- Embarked → One-Hot Encoding
-
-### Visualization
-
-- Age Distribution Histogram
-- Count plots for categorical features
-
----
-
-## 📁 Project Structure
+# 📂 Repository Structure
 
 ```
-Titanic-Data-Preprocessing/
+Machine-Learning-AI-Internship/
 │
-├── dataset/
-│   └── train.csv
+├── Week-1/
+│   ├── Titanic_Data_Preprocessing.ipynb
+│   └── README.md
 │
-├── notebook/
-│   └── Titanic_Preprocessing.ipynb
+├── Week-2/
+│   ├── House_Price_Prediction.ipynb
+│   ├── Titanic_Logistic_Regression.ipynb
+│   └── README.md
 │
-├── output/
-│   └── cleaned_titanic.csv
+├── Week-3/
 │
-├── images/
-│   └── age_distribution.png
+├── Week-4/
 │
 ├── requirements.txt
 └── README.md
@@ -92,65 +51,189 @@ Titanic-Data-Preprocessing/
 
 ---
 
-## ▶️ How to Run
+# 📅 Weekly Progress
 
-1. Clone this repository
+| Week | Topics | Status |
+|------|--------|--------|
+| Week 1 | Data Preprocessing | ✅ Completed |
+| Week 2 | Linear & Logistic Regression | ✅ Completed |
+| Week 3 | Coming Soon | ⏳ |
+| Week 4 | Coming Soon | ⏳ |
+
+---
+
+# 📖 Week 1 - Data Preprocessing
+
+### Topics Covered
+
+- Dataset Exploration
+- Data Cleaning
+- Missing Value Handling
+- Feature Encoding
+- Data Visualization
+
+### Project
+
+🚢 Titanic Data Preprocessing
+
+### Skills Learned
+
+- Pandas
+- NumPy
+- Data Cleaning
+- Label Encoding
+- One-Hot Encoding
+- Data Visualization
+
+---
+
+# 📖 Week 2 - Supervised Machine Learning
+
+## 🏠 Project 1: House Price Prediction
+
+### Algorithm
+
+- Linear Regression
+
+### Workflow
+
+- Data Cleaning
+- Missing Value Imputation
+- One-Hot Encoding
+- Pipeline
+- ColumnTransformer
+- Model Training
+- Model Evaluation
+
+### Results
+
+| Metric | Value |
+|---------|-------|
+| R² Score | **0.8960** |
+| RMSE | **29,242** |
+| MSE | **855,106,363** |
+
+---
+
+## 🚢 Project 2: Titanic Survival Prediction
+
+### Algorithm
+
+- Logistic Regression
+
+### Workflow
+
+- Data Cleaning
+- Feature Encoding
+- Train-Test Split
+- Pipeline
+- Logistic Regression
+- Model Evaluation
+
+### Results
+
+| Metric | Value |
+|---------|-------|
+| Accuracy | **83.33%** |
+
+---
+
+# 📊 Visualizations
+
+This repository includes various visualizations such as:
+
+- Age Distribution
+- Actual vs Predicted Plot
+- Data Distribution
+- Feature Encoding
+- Model Evaluation
+
+---
+
+# 🎯 Skills Gained
+
+- Data Cleaning
+- Feature Engineering
+- Missing Value Handling
+- One-Hot Encoding
+- Machine Learning Pipelines
+- Column Transformer
+- Linear Regression
+- Logistic Regression
+- Model Evaluation
+- Data Visualization
+
+---
+
+# 🚀 Upcoming Topics
+
+### Week 3
+
+- Decision Tree
+- Random Forest
+- Ensemble Learning
+
+### Week 4
+
+- Final Machine Learning Project
+- Model Deployment
+- Internship Assessment
+
+---
+
+# ▶️ Installation
+
+Clone this repository
 
 ```bash
-git clone https://github.com/yourusername/Titanic-Data-Preprocessing.git
+git clone https://github.com/ansh-thakar/Machine-Learning-AI-Internship.git
 ```
 
-2. Install dependencies
+Install required libraries
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Open Jupyter Notebook
+Open Jupyter Notebook
 
 ```bash
 jupyter notebook
 ```
 
-4. Run all cells.
+---
+
+# 📁 Datasets
+
+- Titanic Dataset
+- House Price Dataset
 
 ---
 
-## 📈 Sample Output
-
-- Dataset Summary
-- Missing Value Analysis
-- Encoded Features
-- Age Distribution Plot
-- Cleaned CSV File
-
----
-
-## 🎯 Learning Outcomes
-
-Through this project, I learned:
-
-- Data exploration
-- Data cleaning
-- Missing value handling
-- Feature encoding
-- Data visualization
-- Preparing data for Machine Learning
-
----
-
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Ansh Vijay Thakar**
 
-Machine Learning & AI Intern
+🎓 Diploma in Computer Engineering
 
-GitHub: https://github.com/yourusername
+🌱 Machine Learning Enthusiast
+
+🔗 GitHub: https://github.com/ansh-thakar
+
+---
+
+# 📜 Internship
+
+**Organization:** Skill Nexis
+
+**Program:** Machine Learning & AI Internship
+
+**Mode:** Online
+
+**Duration:** August 2026 – September 2026
 
 ---
 
-## 📜 Internship
+## ⭐ Support
 
-This project was completed as part of the **Machine Learning & AI Internship** conducted by **Skill Nexis**.
-
----
+If you found this repository helpful, consider giving it a ⭐ on GitHub.
